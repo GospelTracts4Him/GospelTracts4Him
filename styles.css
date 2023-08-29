@@ -37,7 +37,7 @@ main {
   padding: 20px;
   box-sizing: border-box; /* Include padding in the width calculation */
   margin: 0 auto; /* Center the main content horizontally */
-  max-width: calc(100% / 3); /* Limit the width to one-third of the page width */
+  max-width: calc(100vw / 3); /* Set the width to one-third of the viewport width */
 }
 
 h1 {
