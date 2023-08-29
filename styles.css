@@ -35,6 +35,7 @@ nav a {
 /* Main content styles */
 main {
   padding: 20px;
+  margin: 0 auto; /* Center the main content horizontally */
 }
 
 h1 {
@@ -59,4 +60,13 @@ body.page1 {
 body.page2 {
   background-color: #B0E0E6; /* Pale blue */
   color: #fff; /* White text color */
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+  /* Styles for screens below 768px wide (e.g., mobile devices) */
+  main {
+    margin: 0; /* Remove horizontal margin to occupy full screen width */
+    padding: 10px; /* Add some padding for better readability */
+  }
 }
