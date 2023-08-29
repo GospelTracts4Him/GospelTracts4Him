@@ -36,6 +36,8 @@ nav a {
 main {
   padding: 20px;
   margin: 0 auto; /* Center the main content horizontally */
+  max-width: calc(100% / 3); /* Limit the width to one-third of the page width */
+  box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 h1 {
@@ -66,7 +68,8 @@ body.page2 {
 @media (max-width: 767px) {
   /* Styles for screens below 768px wide (e.g., mobile devices) */
   main {
-    margin: 0; /* Remove horizontal margin to occupy full screen width */
+    max-width: 100%; /* Remove width limitation to occupy full screen width */
+    margin: 0; /* Remove horizontal margin */
     padding: 10px; /* Add some padding for better readability */
   }
 }
