@@ -35,9 +35,9 @@ nav a {
 /* Main content styles */
 main {
   padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
   margin: 0 auto; /* Center the main content horizontally */
   max-width: calc(100% / 3); /* Limit the width to one-third of the page width */
-  box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 h1 {
