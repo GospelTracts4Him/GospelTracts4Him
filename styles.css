@@ -1,23 +1,39 @@
 /* styles.css */
 
-/* Body styles */
-body.page1 {
+/* Global Styles */
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url("leaves-background.jpg");
+}
+
+/* Page 1 Styles */
+body.page1 {
+  background-color: #f5f5f5;
+  background-image: url('leaves.jpg');
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
-/* Header styles */
+/* Page 2 Styles */
+body.page2 {
+  background-color: #f5f5f5;
+  background-image: url('open-road.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Header Styles */
 header {
-  background-color: #f2f2f2;
+  background-color: #333;
+  color: #fff;
   padding: 10px;
 }
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -28,27 +44,28 @@ nav ul li {
 }
 
 nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: #333;
-  padding: 5px;
 }
 
-/* Main styles */
+/* Main Styles */
 main {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
+  color: #333;
 }
 
 h1 {
-  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  color: #666;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 p {
-  color: #999;
-  line-height: 1.5;
+  margin-bottom: 20px;
 }
-
-/* Rest of the CSS styles... */
