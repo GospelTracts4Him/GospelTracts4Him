@@ -48,6 +48,7 @@ p {
 /* Page-specific styles */
 body.index {
   background-color: #eee;
+  color: #333; /* Adjust text color if needed */
 }
 
 body.page1 {
@@ -58,4 +59,4 @@ body.page1 {
 body.page2 {
   background-color: #4169E1; /* Medium blue */
   color: #fff; /* White text color */
-}/* Define your styles here */
+}
