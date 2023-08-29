@@ -16,6 +16,12 @@ body.page1 {
   background-size: cover;
 }
 
+.page1 h1,
+.page1 p {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
 /* Page 2 Styles */
 body.page2 {
   background-color: #f5f5f5;
@@ -23,6 +29,12 @@ body.page2 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.page2 h1,
+.page2 p {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
 }
 
 /* Header Styles */
