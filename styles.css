@@ -1,16 +1,18 @@
 /* styles.css */
 
 /* Body styles */
-body {
+body.page1 {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-image: url("leaves-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Header styles */
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #f2f2f2;
   padding: 10px;
 }
 
@@ -18,64 +20,35 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-nav li {
-  display: inline-block;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-nav a {
-  display: block;
-  color: #fff;
+nav ul li a {
   text-decoration: none;
-  padding: 10px;
+  color: #333;
+  padding: 5px;
 }
 
-/* Main content styles */
+/* Main styles */
 main {
   padding: 20px;
-  box-sizing: border-box; /* Include padding in the width calculation */
-  margin: 0 auto; /* Center the main content horizontally */
-  max-width: calc(100vw / 3); /* Set the width to one-third of the viewport width */
 }
 
 h1 {
-  margin-bottom: 10px;
-  font-size: 28px; /* Increase the font size for headings */
+  color: #333;
 }
 
 h2 {
-  margin-bottom: 10px;
-  font-size: 22px; /* Increase the font size for subheadings */
+  color: #666;
 }
 
 p {
+  color: #999;
   line-height: 1.5;
 }
 
-/* Page-specific styles */
-body.index {
-  background-color: #eee;
-  color: #333; /* Adjust text color if needed */
-}
-
-body.page1 {
-  background-color: #FF7F50; /* Fall orange */
-  color: #fff; /* White text color */
-}
-
-body.page2 {
-  background-color: #B0E0E6; /* Pale blue */
-  color: #fff; /* White text color */
-}
-
-/* Media queries */
-@media (max-width: 767px) {
-  /* Styles for screens below 768px wide (e.g., mobile devices) */
-  main {
-    max-width: 100%; /* Remove width limitation to occupy full screen width */
-    margin: 0; /* Remove horizontal margin */
-    padding: 10px; /* Add some padding for better readability */
-  }
-}
+/* Rest of the CSS styles... */
