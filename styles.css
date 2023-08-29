@@ -10,7 +10,7 @@ body {
 /* Page 1 Styles */
 body.page1 {
   background-color: #f5f5f5;
-  background-image: url('leaves background.jpg');
+  background-image: url('leaves-background.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
