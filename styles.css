@@ -1,1 +1,61 @@
-/* Define your styles here */
+/* styles.css */
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Page-specific styles */
+body.index {
+  background-color: #eee;
+}
+
+body.page1 {
+  background-color: #FF7F50; /* Fall orange */
+  color: #fff; /* White text color */
+}
+
+body.page2 {
+  background-color: #4169E1; /* Medium blue */
+  color: #fff; /* White text color */
+}/* Define your styles here */
