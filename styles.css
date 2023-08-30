@@ -17,7 +17,8 @@ body.page1 {
 }
 
 .page1 h1,
-.page1 p {
+.page1 p,
+.page1 h2 {
   padding: 10px;
   border-radius: 10px; /* Rounded edges */
   background: linear-gradient(
@@ -35,6 +36,11 @@ body.page1 {
   margin-bottom: 20px;
 }
 
+.page1 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
 /* Page 2 Styles */
 body.page2 {
   background-color: #f5f5f5;
@@ -45,7 +51,8 @@ body.page2 {
 }
 
 .page2 h1,
-.page2 p {
+.page2 p,
+.page2 h2 {
   padding: 10px;
   border-radius: 10px; /* Rounded edges */
   background: linear-gradient(
