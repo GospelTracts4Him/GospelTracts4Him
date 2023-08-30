@@ -20,6 +20,8 @@ body.page1 {
 .page1 p {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
+  border-radius: 10px; /* Rounded edges */
+  backdrop-filter: blur(5px); /* Soft blur effect */
 }
 
 /* Page 2 Styles */
@@ -35,6 +37,8 @@ body.page2 {
 .page2 p {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
+  border-radius: 10px; /* Rounded edges */
+  backdrop-filter: blur(5px); /* Soft blur effect */
 }
 
 /* Header Styles */
