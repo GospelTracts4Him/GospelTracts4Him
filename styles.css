@@ -21,14 +21,10 @@ body.page1 {
 .page1 h2 {
   padding: 10px;
   border-radius: 10px; /* Rounded edges */
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.9) 0%,
-    rgba(255, 255, 255, 0.8) 50%,
-    rgba(255, 255, 255, 0.6) 51%,
-    rgba(255, 255, 255, 0) 100%
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
   );
-  -webkit-backdrop-filter: blur(15px); /* Soft blur effect */
   backdrop-filter: blur(15px); /* Soft blur effect */
 }
 
@@ -56,14 +52,10 @@ body.page2 {
 .page2 h2 {
   padding: 10px;
   border-radius: 10px; /* Rounded edges */
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.9) 0%,
-    rgba(255, 255, 255, 0.8) 50%,
-    rgba(255, 255, 255, 0.6) 51%,
-    rgba(255, 255, 255, 0) 100%
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
   );
-  -webkit-backdrop-filter: blur(15px); /* Soft blur effect */
   backdrop-filter: blur(15px); /* Soft blur effect */
 }
 
