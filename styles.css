@@ -106,6 +106,6 @@ p {
 body.index {
   background-image: url('SBC.png');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   background-size: contain;
 }
