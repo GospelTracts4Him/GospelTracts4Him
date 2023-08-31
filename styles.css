@@ -107,5 +107,5 @@ body.index {
   background-image: url('SBC.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: auto 100%; /* Adjust the height while maintaining aspect ratio */
+  background-size: contain;
 }
