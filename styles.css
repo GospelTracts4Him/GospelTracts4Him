@@ -62,6 +62,37 @@ body.page2 {
   margin-bottom: 20px;
 }
 
+/* Page 3 Styles */
+body.page3 {
+  background-color: #f5f5f5;
+  background-image: url('your-background-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page3 h1,
+.page3 p,
+.page3 h2 {
+  padding: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
+  );
+  backdrop-filter: blur(15px);
+}
+
+.page3 h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.page3 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
 /* Header Styles */
 header {
   background-color: #333;
