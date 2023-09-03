@@ -3,11 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Lucida Handwriting;
-}
-.ETU {
-  text-decoration: none;
-  border-bottom: 4px solid white;
-}
+
 
 /* Page 1 Styles */
 body.page1 {
@@ -115,7 +111,6 @@ nav li a {
   text-decoration: none;
   padding: 10px;
   color: #000;
-  transition: background-color 0.3s ease;
 }
 
 nav li a.active {
