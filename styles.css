@@ -110,12 +110,12 @@ nav li {
 nav li a {
   text-decoration: none;
   padding: 10px;
-  color: #fff; /* White */
-  background-color: #888; /* Medium gray */
+  color: #000;
 }
 
 nav li a.active {
-  background-color: #444; /* Darker gray */
+  background-color: #999;
+  color: #fff;
 }
 
 /* Main Styles */
