@@ -5,9 +5,8 @@ body {
   font-family: Arial, Lucida Handwriting;
 }
 .ETU {
-  display: inline-block;
-  text-decoration: underline;
-  border-bottom: 3px solid;
+  text-decoration: none;
+  border-bottom: 4px solid white;
 }
 
 /* Page 1 Styles */
