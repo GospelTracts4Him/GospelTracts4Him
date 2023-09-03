@@ -131,8 +131,5 @@ p {
 
 /* Index Page Styles */
 body.index {
-  background-image: url('SBC.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
+     background-color: lightgrey
 }
