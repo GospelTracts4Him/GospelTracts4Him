@@ -35,3 +35,22 @@ nav li a:hover {
 .content {
   margin-top: 50px; /* Adjust this value to create space between the navigation bar and the content */
 }
+
+/* Content styles */
+.content {
+  max-width: 600px; /* Adjust this value to control the maximum width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile screens */
+  .content {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 20px;
+  }
+}
