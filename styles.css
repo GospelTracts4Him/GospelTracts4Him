@@ -38,3 +38,44 @@ body.page2 {
 body.page3 {
   background-image: url(Stars.png);
 }
+
+/* Phone-friendly text */
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+}
+
+/* Vertically center text in the middle third on PC */
+@media (min-width: 769px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Rounded white blur background for text */
+body {
+  background-color: #000; /* Set the desired background color for the blur effect */
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  z-index: -1;
+  filter: blur(10px); /* Adjust the blur intensity as needed */
+}
+
+/* Medium grey navigation bar */
+nav {
+  background-color: #888;
+}
