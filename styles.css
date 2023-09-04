@@ -1,1 +1,32 @@
+/* Navigation bar styles */
+nav {
+  background-color: #888;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  flex-grow: 1;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: #999;
+}
