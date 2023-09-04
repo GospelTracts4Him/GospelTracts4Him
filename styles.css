@@ -113,7 +113,7 @@ nav li a {
   color: #000;
 }
 
-nav li a.active {
+nav li.active a {
   background-color: #999;
   color: #fff;
 }
