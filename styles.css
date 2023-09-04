@@ -1,3 +1,4 @@
+/* Common CSS for all pages */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -23,4 +24,17 @@ nav li:last-child a {
 nav li a.active {
   background-color: #999;
   color: #fff;
+}
+
+/* Specific background images for each page */
+body.page1 {
+  background-image: url(Fall.png);
+}
+
+body.page2 {
+  background-image: url(Road.png);
+}
+
+body.page3 {
+  background-image: url(Stars.png);
 }
