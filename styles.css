@@ -3,6 +3,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #888; /* Medium grey navigation bar */
 }
 
 nav li {
@@ -60,22 +61,18 @@ body.page3 {
 
 /* Rounded white blur background for text */
 body {
-  background-color: #000; /* Set the desired background color for the blur effect */
+  background-color: #000;
+  position: relative;
 }
 
-body::before {
+body::after {
   content: '';
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background: inherit;
   z-index: -1;
-  filter: blur(10px); /* Adjust the blur intensity as needed */
-}
-
-/* Medium grey navigation bar */
-nav {
-  background-color: #888;
+  filter: blur(10px);
 }
