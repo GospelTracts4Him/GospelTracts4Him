@@ -5,7 +5,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0;
+  z-index: 100; /* Add a higher z-index value to ensure the navigation bar is positioned above other elements */
 }
 
 nav ul {
@@ -33,24 +33,20 @@ nav li a:hover {
 
 /* Content styles */
 .content {
-  margin-top: 50px; /* Adjust this value to create space between the navigation bar and the content */
-}
-
-/* Content styles */
-.content {
-  max-width: 600px; /* Adjust this value to control the maximum width of the content */
-  margin: 0 auto; /* Center the content horizontally */
+  margin-top: 70px; /* Increase the margin-top value to create more space between the navigation bar and the content */
   padding: 20px;
+  box-sizing: border-box; /* Include padding within the width of the content */
+  max-width: 800px; /* Adjust this value to control the maximum width of the content */
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 /* Media Queries */
 @media only screen and (max-width: 767px) {
   /* Styles for mobile screens */
   .content {
-    width: 100%;
-    max-width: none;
-    margin: 0;
+    margin-top: 60px; /* Adjust the margin-top value for mobile screens */
+    max-width: 100%;
     padding: 20px;
   }
 }
