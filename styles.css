@@ -43,8 +43,8 @@ nav li a {
 }
 
 nav li a.active {
-  background-color: #999;
-  color: #fff;
+  background-color: #000;
+  color: #000;
 }
 
 /* Index Page Styles */
@@ -54,13 +54,13 @@ body.index {
 
 /* Vertical sections for each page in the navigation bar */
 nav li.page1 a {
-  border-right: 1px solid #ccc;
+  border-right: 0px solid #ccc;
 }
 
 nav li.page2 a {
-  border-right: 1px solid #ccc;
+  border-right: 0px solid #ccc;
 }
 
 nav li.page3 a {
-  border-right: 1px solid #ccc;
+  border-right: 0px solid #ccc;
 }
