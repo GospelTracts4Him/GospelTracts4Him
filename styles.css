@@ -39,7 +39,7 @@ nav li {
 nav li a {
   text-decoration: none;
   padding: 10px;
-  color: #000;
+  color: #888;
 }
 
 nav li a.active {
@@ -62,5 +62,5 @@ nav li.page2 a {
 }
 
 nav li.page3 a {
-  border-right: none;
+  border-right: 1px solid #ccc;
 }
