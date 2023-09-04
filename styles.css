@@ -30,3 +30,8 @@ nav li a {
 nav li a:hover {
   background-color: #999;
 }
+
+/* Content styles */
+.content {
+  margin-top: 50px; /* Adjust this value to create space between the navigation bar and the content */
+}
