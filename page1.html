@@ -1,12 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Fall</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Styling for the banner */
+    .banner {
+      background-color: #f2f2f2;
+      overflow: hidden;
+    }
+
+    /* Styling for the segments */
+    .segment {
+      float: left;
+      width: 20%; /* Adjust the width as needed */
+      text-align: center;
+    }
+
+    /* Styling for the links */
+    .segment a {
+      display: block;
+      padding: 20px;
+      color: #000000;
+      text-decoration: none;
+    }
+
+    /* Styling for the active link */
+    .segment a.active {
+      background-color: #999999;
+      color: #ffffff;
+    }
+  </style>
 </head>
-<iframe src="navbar.html" frameborder="0" width="100%" height="50"></iframe>
+<body>
+  <div class="banner">
+    <div class="segment">
+      <a href="#">Page 1</a>
+    </div>
+    <div class="segment">
+      <a href="#" class="active">The Fall</a>
+    </div>
+    <div class="segment">
+      <a href="#">Page 3</a>
+    </div>
+    <div class="segment">
+      <a href="#">Page 4</a>
+    </div>
+    <div class="segment">
+      <a href="#">Page 5</a>
+    </div>
 <body class="page1">
 
 
