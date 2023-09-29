@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /* Styling for the banner */
     .banner {
-      background-color: #999999;
       overflow: hidden;
+      background-color: #999999;
+      height: 40px; /* Adjust the height as needed for desktop */
+      display: flex;
+      align-items: center; /* Center vertically */
     }
 
     /* Styling for the segments */
     .segment {
-      float: left;
-      width: 20%; /* Adjust the width as needed */
+      flex: 1; /* Distribute equal width */
       text-align: center;
     }
 
@@ -28,15 +31,25 @@
       background-color: #555555;
       color: #ffffff;
     }
+
+    /* Responsive adjustments for mobile */
+    @media (max-width: 768px) {
+      .banner {
+        height: 40px; /* Adjust the height as needed for mobile */
+      }
+      .segment {
+        width: auto; /* Adjust the width to fit the content */
+      }
+    }
   </style>
 </head>
 <body>
   <div class="banner">
     <div class="segment">
-      <a href="index.html">Home</a>
+      <a href="index.html"">Home</a>
     </div>
     <div class="segment">
-      <a href="page1.html" class="active">The Fall</a>
+      <a href="page1.html" class="active>The Fall</a>
     </div>
     <div class="segment">
       <a href="page2.html">Where Are You Headed</a>
