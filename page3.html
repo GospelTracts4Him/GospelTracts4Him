@@ -1,23 +1,66 @@
 <!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Styling for the banner */
+    .banner {
+      overflow: hidden;
+      background-color: #999999;
+      height: 40px; /* Adjust the height as needed for desktop */
+      display: flex;
+      align-items: center; /* Center vertically */
+    }
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suppose it is True After All</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body class="page3">
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="page1.html">The Fall</a></li>
-        <li><a href="page2.html">Where Are You Headed</a></li>
-        <li><a href="page3.html">Suppose it is True After All</a></li>
-      </ul>
-    </nav>
-  </header>
+    /* Styling for the segments */
+    .segment {
+      flex: 1; /* Distribute equal width */
+      text-align: center;
+    }
+
+    /* Styling for the links */
+    .segment a {
+      display: block;
+      padding: 20px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    /* Styling for the active link */
+    .segment a.active {
+      background-color: #555555;
+      color: #ffffff;
+    }
+
+    /* Responsive adjustments for mobile */
+    @media (max-width: 768px) {
+      .banner {
+        height: 40px; /* Adjust the height as needed for mobile */
+      }
+      .segment {
+        width: auto; /* Adjust the width to fit the content */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="segment">
+      <a href="index.html"">Home</a>
+    </div>
+    <div class="segment">
+      <a href="page1.html">The Fall</a>
+    </div>
+    <div class="segment">
+      <a href="page2.html">Where Are You Headed</a>
+    </div>
+    <div class="segment">
+      <a href="page3.html" class="active">Suppose It's True After All</a>
+    </div>
+    <div class="segment">
+      <a href="page4.html">Page 4</a>
+    </div>
+  </div>
     <main>
       <h1>SUPPOSE IT IS TRUE AFTER ALL?</h1>
       <p>Two friends were talking on religious topics. They discussed the question of punishment for sin in a future life. They settled to their own satisfaction that there was none. They decided that hell was a myth. They argued that there was no need for God or a Supreme Being since scientists say that the universe and life and man could have come into being through "natural" causes. And they agreed that even if there were a God, He would be a God of love and thus could not consign His creatures to everlasting punishment.</p>
