@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="/path/to/favicon.ico">
+  <style>
+    /* Styling for the banner */
+    .banner {
+      display: flex;
+    }
+
+    /* Styling for individual pages */
+    .page {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      background-color: #f2f2f2;
+      cursor: pointer;
+    }
+
+    /* Styling for the active page */
+    .page.active {
+      background-color: #999999;
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body class="index">
   <header>
