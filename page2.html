@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Where Are You Headed</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Styling for the banner */
+    .banner {
+      background-color: #999999;
+      overflow: hidden;
+    }
+
+    /* Styling for the segments */
+    .segment {
+      float: left;
+      width: 20%; /* Adjust the width as needed */
+      text-align: center;
+    }
+
+    /* Styling for the links */
+    .segment a {
+      display: block;
+      padding: 20px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    /* Styling for the active link */
+    .segment a.active {
+      background-color: #555555;
+      color: #ffffff;
+    }
+  </style>
 </head>
-<body class="page2">
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="page1.html">The Fall</a></li>
-        <li><a href="page2.html">Where Are You Headed</a></li>
-        <li><a href="page3.html">Suppose it is True After All</a></li>
-      </ul>
-    </nav>
-  </header>
+<body>
+  <div class="banner">
+    <div class="segment">
+      <a href="index.html">Home</a>
+    </div>
+    <div class="segment">
+      <a href="page1.html">The Fall</a>
+    </div>
+    <div class="segment">
+      <a href="page2.html" class="active">Where Are You Headed</a>
+    </div>
+    <div class="segment">
+      <a href="page3.html">Page 3</a>
+    </div>
+    <div class="segment">
+      <a href="page4.html">Page 4</a>
+    </div>
+  </div>
 
   <main>
     <h1>WHERE ARE YOU HEADED?</h1>
