@@ -1,1 +1,48 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+/* Styles for the banner */
+.banner {
+  background-color: #999999;
+  height: 40px; /* Adjust the height as needed for desktop */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Distribute segments evenly */
+}
+
+/* Styles for the segments */
+.segment {
+  flex: 1; /* Distribute equal width */
+  text-align: center;
+}
+
+/* Styles for the links */
+.segment a {
+  display: block;
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Styles for the active link */
+.segment a.active {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+/* Styles for the main content */
+main {
+  padding: 20px;
+}
+
+main h1 {
+  margin-top: 0;
+}
+
+main p {
+  margin-bottom: 1em;
+}
