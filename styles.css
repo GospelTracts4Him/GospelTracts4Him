@@ -2,7 +2,6 @@
 .banner {
   overflow: hidden;
   background-color: #999999;
-  height: 40px; /* Adjust the height as needed for desktop */
   display: flex;
   align-items: center; /* Center vertically */
 }
