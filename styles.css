@@ -8,12 +8,12 @@ body {
 /* Page 1 Styles */
 body.page1 {
   background-color: #f5f5f5;
-  background-image: url('Fall.png');
+  background-image: url('fall.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
- 
+
 .page1 h1,
 .page1 p,
 .page1 h2 {
@@ -40,7 +40,7 @@ body.page1 {
 body.page2,
 body.page3 {
   background-color: #f5f5f5;
-  background-image: url('Road.png');
+  background-image: url('road.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -71,7 +71,7 @@ body.page3 {
 body.page3,
 body.page4 {
   background-color: #f5f5f5;
-  background-image: url('Stars.png');
+  background-image: url('stars.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -120,8 +120,6 @@ nav ul li {
   margin-right: 10px;
 }
 
-
-
 nav ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -160,4 +158,47 @@ p {
 /* Index Page Styles */
 body.index {
   background-color: lightgrey;
+}
+
+
+/* QR Code Styles */
+.qr-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.qr-column {
+  flex-basis: calc(100% / 3); /* Updated */
+  padding: 10px;
+  text-align: center;
+}
+
+.qr-column a {
+  text-decoration: none;
+  color: #333;
+}
+
+.qr-column img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.qr-column p {
+  font-size: 16px;
+}
+
+.download-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
 }
