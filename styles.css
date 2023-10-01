@@ -8,7 +8,7 @@ body {
 /* Page 1 Styles */
 body.page1 {
   background-color: #f5f5f5;
-  background-image: url('fall.png');
+  background-image: url('Fall.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -40,7 +40,7 @@ body.page1 {
 body.page2,
 body.page3 {
   background-color: #f5f5f5;
-  background-image: url('road.png');
+  background-image: url('Road.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -71,7 +71,7 @@ body.page3 {
 body.page3,
 body.page4 {
   background-color: #f5f5f5;
-  background-image: url('stars.png');
+  background-image: url('Stars.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
