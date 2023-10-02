@@ -2,107 +2,83 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Lucida Handwriting;
+  font-family: Arial, "Lucida Handwriting", sans-serif;
 }
-
-/* Page 1 Styles */
-body.page1 {
+/* Common Styles for All Pages */
+body.page1,
+body.page2,
+body.page3,
+body.page4,
+body.page5,
+body.page6 {
   background-color: #f5f5f5;
-  background-image: url('fall.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-.page1 h1,
-.page1 p,
-.page1 h2 {
+h1,
+p,
+h2,
+h3 { /* Include h3 for the bubble background style */
   padding: 10px;
   border-radius: 10px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.9)
-  );
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
   backdrop-filter: blur(15px);
 }
 
-.page1 h1 {
+h1 {
   font-size: 28px;
   margin-bottom: 20px;
 }
 
-.page1 h2 {
+h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+h3 {
+  font-size: 20px; /* Adjust the font size for h3 as needed */
+  margin-bottom: 10px;
+}
+
+
+
+/* Page 1 Styles */
+body.page1 {
+  background-image: url('Fall.jpg');
+}
+
 /* Page 2 Styles */
-body.page2,
-body.page3 {
-  background-color: #f5f5f5;
-  background-image: url('road.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.page2 h1,
-.page3 h1,
-.page2 p,
-.page3 p,
-.page2 h2,
-.page3 h2 {
-  padding: 10px;
-  border-radius: 10px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.9)
-  );
-  backdrop-filter: blur(15px);
-}
-
-.page2 h1,
-.page3 h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
+body.page2 {
+  background-image: url('Road.jpg'); /* Replace with appropriate image */
 }
 
 /* Page 3 Styles */
-body.page3,
+body.page3 {
+  background-image: url('Stars.jpg');
+}
+
+/* Page 4 Styles */
 body.page4 {
-  background-color: #f5f5f5;
-  background-image: url('stars.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-image: url('Cross.jpg');
 }
 
-.page3 h1,
-.page4 h1,
-.page3 p,
-.page4 p,
-.page2 h3,
-.page4 h2 {
-  padding: 10px;
-  border-radius: 10px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.9)
-  );
-  backdrop-filter: blur(15px);
+/* Page 5 Styles */
+body.page5 {
+  background-image: url('Sunrise.jpg');
 }
 
-.page3 h1,
-.page4 h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
+/* Page 6 Styles */
+body.page6 {
+  background-image: url('Hearts.jpg');
 }
 
 /* Header Styles */
 header {
   background-color: #333;
   color: #fff;
-  padding: 0px 0px;
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -144,21 +120,25 @@ main {
   margin: 0 auto;
   padding: 20px;
   color: #333;
+  background: none;
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-p {
-  margin-bottom: 20px;
-}
 
 /* Index Page Styles */
 body.index {
-  background-color: lightgrey;
+  background-color: lightgrey; /* Background color for the index page */
 }
+
+body.index h1,
+body.index p,
+body.index h2 {
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 0; /* Remove border-radius */
+  background-image: none; /* Remove the background image */
+  backdrop-filter: none; /* Remove backdrop filter */
+}
+
+/* ... Rest of your styles ... */
 
 
 /* QR Code Styles */
@@ -170,7 +150,7 @@ body.index {
 }
 
 .qr-column {
-  flex-basis: calc(100% / 3); /* Updated */
+  flex-basis: calc(100% / 3);
   padding: 10px;
   text-align: center;
 }
@@ -202,3 +182,15 @@ body.index {
   text-decoration: none;
   color: #333;
 }
+
+.qr-container {
+  position: relative; /* Make the container position relative */
+}
+
+.qr-container .download-button {
+  position: absolute; /* Position the download button absolutely */
+  top: -27px;
+  right: 0px;
+}
+
+

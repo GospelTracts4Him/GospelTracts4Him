@@ -5,47 +5,13 @@
   <title>Share</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    .qr-container {
-      position: relative;
-      display: inline-block;
-    }
-
-    .download-button {
-      position: absolute;
-      top: -11px;
-      right: 12px;
-      background-color: #f2f2f2;
-      padding: 5px 10px;
-      border-radius: 5px;
-      font-size: 12px;
-      text-decoration: none;
-      color: #333;
-    }
-
+    /* Your existing styles for .qr-container and .download-button */
     @media only screen and (max-width: 600px) {
-      header {
-        display: block;
-        text-align: center;
-      }
-
-      nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
-      }
-
-      nav li {
-        margin: 5px;
-      }
-
-      nav a {
-        padding: 5px 10px;
-      }
+      /* Your existing media query styles */
     }
   </style>
 </head>
-<body>
+ <body class="index">
   <header>
     <nav>
       <ul>
@@ -53,31 +19,65 @@
         <li><a href="page1.html">The Fall</a></li>
         <li><a href="page2.html">Where Are You Headed</a></li>
         <li><a href="page3.html">Suppose It's True After All</a></li>
+        <li><a href="page4.html">Why Did Jesus Die</a></li>
+        <li><a href="page5.html">Coming Soon</a></li>
+        <li><a href="page6.html">Somebody Loves You</a></li>
       </ul>
     </nav>
   </header>
+ 
   <main>
-    <p>To God be the glory!</p>
+    <p>To God be the glory!</p> 
+    <p>These digital tracts were created as a way to easily share the Gospel with anyone, anywhere.</p>   
+    <p>Feel free to download a QR code to share from your phone.</p>
+
+    <br><br><br><br><br>
+
     <div class="qr-row">
       <div class="qr-column">
         <div class="qr-container">
-          <img src="The Fall. QRcode.png" alt="The Fall QR Code">
-          <a href="The Fall. QRcode.png" download="The Fall QR Code.png" class="download-button">Download</a>
+          <img src="The Fall. QRcode.jpg" alt="The Fall QR Code">
+          <a href="The Fall. QRcode.jpg" download="The Fall QR Code.jpg" class="download-button">Download</a>
           <p>The Fall</p>
         </div>
       </div>
       <div class="qr-column">
         <div class="qr-container">
-          <img src="Where Are You Headed. QRcode.png" alt="Where Are You Headed QR Code">
-          <a href="Where Are You Headed. QRcode.png" download="Where Are You Headed QR Code.png" class="download-button">Download</a>
+          <img src="Where Are You Headed. QRcode.jpg" alt="Where Are You Headed QR Code">
+          <a href="Where Are You Headed. QRcode.jpg" download="Where Are You Headed QR Code.jpg" class="download-button">Download</a>
           <p>Where Are You Headed</p>
         </div>
       </div>
       <div class="qr-column">
         <div class="qr-container">
-          <img src="Suppose It's True After All. QRcode.png" alt="Suppose It's True After All QR Code">
-          <a href="Suppose It's True After All. QRcode.png" download="Suppose It's True After All QR Code.png" class="download-button">Download</a>
+          <img src="Suppose It's True After All. QRcode.jpg" alt="Suppose It's True After All QR Code">
+          <a href="Suppose It's True After All. QRcode.jpg" download="Suppose It's True After All QR Code.jpg" class="download-button">Download</a>
           <p>Suppose It's True After All</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second set of QR codes -->
+    <div class="qr-row">
+      <div class="qr-column">
+        <div class="qr-container">
+          <img src="Why Did Jesus Die. QRcode.jpg" alt="Why Did Jesus Die QR Code">
+          <a href="Why Did Jesus Die. QRcode.jpg" download="Why Did Jesus Die. QRcode.jpg" class="download-button">Download</a>
+          <p>Why Did Jesus Die</p>
+        </div>
+      </div>
+      <div class="qr-column">
+        <div class="qr-container">
+          <img src="Coming Soon. QRcode.jpg" alt="Coming Soon QR Code">
+          <a href="Coming Soon. QRcode.jpg" download="Coming Soon. QRcode.jpg" class="download-button">Download</a>
+          <p>Coming Soon</p>
+        </div>
+      </div>
+      <div class="qr-column">
+        <div class="qr-container">
+          <img src="Somebody Loves You. QRcode.jpg" alt="Somebody Loves You QR Code">
+          <a href="Somebody Loves You. QRcode.jpg" download="Somebody Loves You. QRcode.jpg" class="download-button">Download</a>
+          <p>Somebody Loves You</p>
         </div>
       </div>
     </div>
